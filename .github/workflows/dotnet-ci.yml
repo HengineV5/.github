@@ -14,6 +14,8 @@ on:
         description: Whether to run the test step.
         type: boolean
     secrets:
+      GITHUB_TOKEN:
+        required: true
       NUGET_API_KEY:
         required: true
 
